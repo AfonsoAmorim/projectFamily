@@ -1,0 +1,35 @@
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 300px;
+    margin:auto;
+    position:absolute; 
+    padding: 30px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: blue;
+    border-radius: 15px;
+
+}
+
+body{
+    background-color: rgb(89, 204, 89);
+}
+
+input{
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+label {
+    font-size: 1rem;
+    color: white;
+    
+}
+h1{
+    font-style: italic;
+    color: yellow;
+}
+
